@@ -1,6 +1,6 @@
 require 'pry'
 
-def my_select(collection)
+def my_all?(collection)
    i = 0
    new = []
    while i < collection.length
