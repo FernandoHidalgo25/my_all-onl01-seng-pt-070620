@@ -1,7 +1,9 @@
 require 'pry'
 
 def my_all?(collection)
-  i = log10while i < collection.lenght
+  i = 0 
+  while i < collection.lenght
+  yield(collection[i])
   i = i + 1
-end
+  end
 end
